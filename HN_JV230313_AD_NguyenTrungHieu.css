@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    padding: 0 30px;
+}
+@media screen and (max-width: 640px) {
+  .header{
+    flex-wrap: wrap;
+   flex-direction: column;
+   padding: 0;
+   align-items: start;
+   font-size: 10px;
+}
+  .header h1{
+    font-size: 1px;
+  }
+}
+.header p{cursor: pointer;}
+.header form button:hover{cursor: pointer; }
+.header h1{
+    font-size: 24px;
+}
+.header form input{
+    font-size: 8px;
+    width: 120px;
+    border: none;
+}
+header form h4{
+    font-size: 16px;
+}
+.bander{
+    display: flex;
+    justify-content: center;
+    color: rgba(169, 169, 169, 0.634);
+    margin-top: 50px;
+    gap: 3px
+}
+.content{
+    display: flex;
+    justify-content:space-around;
+    background-color:#5f9ea01c ;
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 640px) {
+    .content{
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding-bottom: 5px;
+    }
+    .content div p{
+        font-size: 1px;
+        
+    }
+    .content div div p{
+        font-size: 1px;
+        padding-bottom: 5px;
+    }
+}
+.hover:hover{
+    background-color: red;
+   color: red;
+}
+.list h2{
+    background-color: white;
+    font-size: 13px;
+}
+.list ul li{
+    font-size: 10px;
+}
+.content div img{
+    width: 135px;
+    height: 154px;
+}
+.content div h2{
+    font-size: 13px;
+}
+.content div div p{
+    font-size: 9px;
+}
+.content div div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 10px;
+}
+.content div{
+    background-color: white;
+    margin-bottom: 10px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+@media screen and (max-width: 640px) {
+    .end{
+      flex-wrap: wrap;
+    }
+.end div h3{
+    font-size: 13px;
+}
+.end div {
+    font-size: 10px;
+}
+.end div{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    
+}
